@@ -14,8 +14,7 @@ public class KineticEnergy {
         System.out.print("Enter the velocity of the object: ");
         velocity = keyboard.nextDouble();
         kineticENergy = kineticEnergy(mass, velocity);
-        System.out.printf("%.2f" kineticENergy);
-
+        System.out.printf("%.2f", kineticENergy);
         keyboard.close();
     }
 }
